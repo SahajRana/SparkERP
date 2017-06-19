@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#263238"
+    android:layout_marginTop="2dp">
+    <LinearLayout
+        android:id="@+id/notice_itemm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#263238"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:clipChildren="false"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <ImageView
+
+                    android:id="@+id/notice_userPic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_gravity="start|center"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/notice_hashnamee"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:textColor="#263238"
+                    android:text="\@i_am_groot"/>
+
+
+            </LinearLayout>
+            <View
+                android:id="@+id/notice_new_view"
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle"/>
+            <com.github.curioustechizen.ago.RelativeTimeTextView
+                android:id="@+id/notice_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#afafaf"
+                android:textSize="14sp"
+                android:padding="15dp"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="290dp"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/notice_content_textview"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:textColor="#263238"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            />
+        <FrameLayout
+
+            android:id="@+id/notice_image_view_frameree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:id="@+id/notice_image_view_timelineLiearLayoutViewContainer"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <io.github.meness.timelinepostcontainer.TimelinePostContainer
+
+                    android:id="@+id/notice_image_view_timelinePostContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/notice_image_view_jugad"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

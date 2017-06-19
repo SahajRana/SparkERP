@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:plainpie="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#263238"
+    android:layout_marginBottom="2dp">
+    <LinearLayout
+
+        android:background="@drawable/thouhght_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ipod"
+                android:layout_margin="20dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sahaj Rana" />
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X A" />
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DPS" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="290dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_margin="20dp"
+            android:textColor="#263238"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"/>
+
+        <az.plainpie.PieView
+            android:layout_marginBottom="60dp"
+            android:layout_gravity="center"
+            android:id="@+id/pieView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            plainpie:inner_pie_padding="15"
+            plainpie:percentage="75"
+            plainpie:percentage_size="35"
+            plainpie:inner_text_visibility="true"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

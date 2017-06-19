@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Spark</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="field_required">Field is already Acquired</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="login_error">Login Error</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_profile">Profile</string>
+    <string name="Dialogtitle"></string>
+
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="err_msg_username">UserName can\'t be empty</string>
+    <string name="err_msg_hashname">HashName can\'t be empty</string>
+    <string name="lessDigit">enter more than 5 characters</string>
+    <string name="alreadyTaken">Already Taken</string>
+    <string name="path_search">M141,17 A9,9 0 1,1 142,16 L149,23</string>
+    <string name="action_search">search</string>
+    <string name="title_activity_on_selected_feed">OnSelectedFeedActivity</string>
+    <string name="title_activity_profile_new">ProfileNewActivity</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+</resources>

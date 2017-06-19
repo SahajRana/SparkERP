@@ -1,0 +1,156 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             >
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/doneFabbb"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_done_red"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/upperText1"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#511b1a"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-thin"
+                android:text="All Set!"/>
+            <TextView
+                android:id="@+id/upperText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#d6000000"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-thin"
+                android:text="Just something about you "/>
+            <TextView
+                android:id="@+id/upperText2"
+                android:paddingTop="4dp"
+                android:layout_width="match_parent"
+                android:textColor="#d6000000"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="it will help us to provide better user experience"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/information_layout"
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp">
+
+                <View
+                    android:paddingBottom="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+                <LinearLayout
+                    android:paddingTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/cityscape"/>
+                    <TextView
+                        android:paddingLeft="7dp"
+                        android:paddingTop="10dp"
+                        android:textSize="18sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="City:"
+                        android:textColor="#3c3f41"/>
+                </LinearLayout>
+
+
+                <Spinner
+                    android:id="@+id/spinner_campus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:paddingTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/school"/>
+                    <TextView
+                        android:paddingLeft="7dp"
+                        android:paddingTop="10dp"
+                        android:textSize="18sp"
+                        android:textColor="#3c3f41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="School:"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner_course"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/error_field_not_selected"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Error- Some Field might not be selected!"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor= "@color/color_alizarin"/>
+                <TextView
+                    android:id="@+id/error_field_not_selected_YEAR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Error- Year Mismatch!"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/color_alizarin"/>
+
+
+
+                <View
+                    android:layout_marginTop="80dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/more"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyCustomOverlay" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">#00838F</item>
+    </style>
+
+    <style name="TextAppearance.Design.Tab" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="MyCustomThemeToolbar2" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">#C5CAE9</item>
+        <item name="android:textColorSecondary">#E91E63</item>
+
+    </style>
+    <style name="noAnimTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="MyCustomThemeToolbar" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">#C5CAE9</item>
+        <item name="android:textColorSecondary">@color/icons</item>
+
+    </style>
+
+    <style name="FilePickerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+        <item name="tabIndicatorColor">#FF4081</item>
+    </style>
+    <style name="FilePickerTheme.base" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#FF4081</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="TextContent">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+    <!-- <style name="FullscreenTheme" parent="AppTheme">
+         <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+         <item name="android:windowActionBarOverlay">true</item>
+         <item name="android:windowBackground">@null</item>
+         <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+         <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+     </style>
+
+     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+         <item name="android:background">@color/black_overlay</item>
+     </style>
+
+     <style name="CustomWelcomeScreenTheme" parent="WelcomeScreenTheme">
+         <item name="welcomeIndicatorStyle">@style/WelcomeScreenPageIndicator.Custom</item>
+         <item name="welcomeTitleTextStyle">@style/WelcomeScreenText.Title.Centered</item>
+     </style>-->
+
+    <!--<style name="WelcomeScreenPageIndicator.Custom">
+        <item name="animated">true</item>
+    </style>
+
+    <style name="WelcomeScreenText.Title.Centered.Custom">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle">
+        <item name="searchBackground">@color/white_ish</item>
+        <item name="searchVoiceIcon">@drawable/ic_action_voice_search</item>
+        <item name="searchCloseIcon">@drawable/ic_action_navigation_close</item>
+        <item name="searchBackIcon">@drawable/ic_action_navigation_arrow_back</item>
+        <item name="searchSuggestionBackground">@color/search_layover_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray_50</item>
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+
+    <style name="Tooltip">
+        <item name="android:text">qwqwrqwfqwfqwfqwfqwf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundColor">@color/tooltipBlueish</item>
+        <item name="cornerRadius">10dp</item>
+    </style>-->
+
+</resources>
